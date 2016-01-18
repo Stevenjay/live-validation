@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Live Validation</title>
+</head>
+<body>
+
+	<form>
+		<h1>Registration</h1>
+
+		<div>
+			<label for="username">Username: </label>
+			<input type="text" id="username" placeholder="Napoleon Bonaparte">
+			<span id="username-message"></span>
+		</div>
+		<div>
+			<label for="email">Email: </label>
+			<input type="email" id="email" placeholder="napoleon@france.gov">
+			<span id="email-message"></span>
+		</div>
+
+		<input type="submit" value="Register">
+	</form>
+
+	<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script src="js/live-validation.js"></script>
+
+</body>
+</html>
